@@ -5,7 +5,6 @@ module.exports = {
     config.module.rules.push({ test: /\.yml$/, use: 'raw-loader' })
     return config
   },
-  assetPrefix: process.env.NODE_ENV === 'development' ? '' : '/blog/',
   env: {
     URL: process.env.NODE_ENV === 'development' ? '' : '/blog',
   }

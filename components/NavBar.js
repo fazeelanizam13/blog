@@ -8,7 +8,7 @@ export default function NavBar() {
         <Link href={`${process.env.URL}/`}>
           <a>
             <img
-              src='/navbar-icons/home.png'
+              src={`${process.env.URL}/navbar-icons/home.png`}
               className={styles.icon}
               alt='Home Icon'
             />
@@ -20,7 +20,7 @@ export default function NavBar() {
         <Link href={`${process.env.URL}/tags`}>
           <a>
             <img
-              src='/navbar-icons/tags.png'
+              src={`${process.env.URL}/navbar-icons/tags.png`}
               className={styles.icon}
               alt='Tags Icon'
             />
@@ -29,7 +29,7 @@ export default function NavBar() {
         <Link href={`${process.env.URL}/archives`}>
           <a>
             <img
-              src='/navbar-icons/archives.png'
+              src={`${process.env.URL}/navbar-icons/archives.png`}
               className={styles.icon}
               alt='Archives Icon'
             />
