@@ -1,0 +1,126 @@
+@font-face {
+  font-family: "Cabin Bold";
+  src: url("/fonts/Cabin/static/Cabin-Bold.ttf");
+  font-style: bold;
+  font-weight: 700;
+  font-display: swap;
+}
+@font-face {
+  font-family: "SignikaNegative Light";
+  src: url("/fonts/SignikaNegative/SignikaNegative-Light.ttf");
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+}
+@font-face {
+  font-family: "SignikaNegative Regular";
+  src: url("/fonts/SignikaNegative/SignikaNegative-Regular.ttf");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+@font-face {
+  font-family: "SignikaNegative Bold";
+  src: url("/fonts/SignikaNegative/SignikaNegative-Bold.ttf");
+  font-style: bold;
+  font-weight: 700;
+  font-display: swap;
+}
+@font-face {
+  font-family: "OxygenMono Regular";
+  src: url("/fonts/OxygenMono/OxygenMono-Regular.ttf");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+* {
+  box-sizing: border-box;
+}
+::-webkit-scrollbar {
+  width: 3px;
+}
+::-webkit-scrollbar-track {
+  background-color: #19042c;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #f2f2f2;
+}
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+body {
+  width: 100vw;
+  font-family: SignikaNegative Light;
+  color: #f2f2f2;
+  font-size: 18px;
+  line-height: 1.6;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  background: rgb(25, 4, 44);
+  background: -moz-linear-gradient(
+    145deg,
+    rgba(25, 4, 44, 1) 20%,
+    rgba(41, 8, 68, 1) 43%,
+    rgba(51, 8, 49, 1) 51%,
+    rgba(49, 13, 83, 1) 72%,
+    rgba(25, 0, 48, 1) 88%
+  );
+  background: -webkit-linear-gradient(
+    145deg,
+    rgba(25, 4, 44, 1) 20%,
+    rgba(41, 8, 68, 1) 43%,
+    rgba(51, 8, 49, 1) 51%,
+    rgba(49, 13, 83, 1) 72%,
+    rgba(25, 0, 48, 1) 88%
+  );
+  background: linear-gradient(
+    145deg,
+    rgba(25, 4, 44, 1) 20%,
+    rgba(41, 8, 68, 1) 43%,
+    rgba(51, 8, 49, 1) 51%,
+    rgba(49, 13, 83, 1) 72%,
+    rgba(25, 0, 48, 1) 88%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#19042c",endColorstr="#190030",GradientType=1);
+}
+.box {
+  background-color: #060606;
+  width: 75vw;
+  margin: 0 auto;
+}
+.contentInBox {
+  width: 100%;
+  margin-top: 12vh;
+  min-height: 100vh;
+}
+h1 {
+  font-size: 2rem;
+}
+h2 {
+  font-size: 1.2rem;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+img {
+  max-width: 100%;
+  display: block;
+}
+@media only screen and (max-width: 768px) {
+  body {
+    font-size: 14px;
+    line-height: 1.5;
+  }
+  .box {
+    width: 95vw;
+  }
+  .contentInBox {
+    margin-top: 10vh;
+  }
+}

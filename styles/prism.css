@@ -1,0 +1,204 @@
+/* PrismJS 1.23.0
+https://prismjs.com/download.html#themes=prism-dark&languages=markup+css+clike+javascript+css-extras+graphql+json+jsx+regex+sass+scss&plugins=line-highlight+file-highlight+command-line+toolbar+copy-to-clipboard */
+/**
+ * prism.js Dark theme for JavaScript, CSS and HTML
+ * Based on the slides of the talk “/Reg(exp){2}lained/”
+ * @author Lea Verou
+ */
+
+code[class*="language-"],
+pre[class*="language-"] {
+  color: #f2f2f2;
+  font-size: 0.75rem;
+  width: 90%;
+  padding: 0 5%;
+  margin: 5%;
+  text-shadow: none;
+  font-family: OxygenMono Regular;
+  direction: ltr;
+  text-align: left;
+  white-space: pre;
+  word-spacing: normal;
+  word-break: normal;
+  line-height: 1.5rem;
+  -moz-tab-size: 2;
+  -o-tab-size: 2;
+  tab-size: 2;
+  -webkit-hyphens: none;
+  -moz-hyphens: none;
+  -ms-hyphens: none;
+  hyphens: none;
+}
+pre[class*="language-"]::selection,
+code[class*="language-"]::selection,
+pre[class*="language-"]::mozselection,
+code[class*="language-"]::mozselection {
+  text-shadow: none;
+  background-color: #000000;
+  color: #f2f2f2;
+}
+@media print {
+  code[class*="language-"],
+  pre[class*="language-"] {
+    text-shadow: none;
+  }
+}
+pre[class*="language-"] {
+  overflow-x: auto;
+  background: #000000;
+  border: 1px solid #333;
+}
+/* Inline code */
+:not(pre) > code {
+  font-family: OxygenMono Regular;
+  font-size: 0.9rem;
+  padding: 0.1rem 0.5rem;
+  margin: 0 0.2rem;
+  white-space: normal;
+  color: #f2f2f2;
+  background: #000000;
+  border: 1px solid #333;
+}
+@media only screen and (max-width: 768px) {
+  code[class*="language-"],
+  pre[class*="language-"] {
+    font-size: 0.7rem;
+    padding: 0 3%;
+    line-height: 1.4rem;
+  }
+  pre[class*="language-"] {
+    border: none;
+  }
+  :not(pre) > code {
+    font-size: 0.7rem;
+    padding: 0.05rem 0.2rem;
+    margin: 0 0.2rem;
+  }
+}
+.token.comment,
+.token.doctype {
+  color: #555555;
+}
+.token.operator,
+.token.punctuation {
+  color: #888888;
+}
+.token.comment {
+  font-style: italic;
+}
+.token.boolean,
+.token.number,
+.token.string,
+.token.regex,
+.token.char,
+.token.constant,
+.token.symbol,
+.token.attr-value {
+  color: #82508b;
+}
+.token.tag,
+.token.selector {
+  color: #f2f2f2;
+}
+.token.property,
+.token.attr-name,
+.token.url,
+.language-css .token.string,
+.style .token.string,
+.token.variable {
+  color: #aa33b9;
+  background: #000000;
+}
+.token.atrule,
+.token.keyword {
+  color: #e079ff;
+}
+pre[data-line] {
+  position: relative;
+  padding: 1rem 0 1rem 3rem;
+}
+.line-highlight {
+  position: absolute;
+  left: 0;
+  right: 0;
+  padding: inherit 0;
+  margin-top: 1rem; /* Same as .prism’s padding-top */
+  background: #3d3d3d;
+  pointer-events: none;
+  line-height: inherit;
+  white-space: pre;
+}
+@media print {
+  .line-highlight {
+    /*
+		 * This will prevent browsers from replacing the background color with white.
+		 * It's necessary because the element is layered on top of the displayed code.
+		 */
+    -webkit-print-color-adjust: exact;
+    color-adjust: exact;
+  }
+}
+.line-highlight:before,
+.line-highlight[data-end]:after {
+  content: attr(data-start);
+  position: absolute;
+  top: 0.4rem;
+  left: 0.6rem;
+  min-width: 1rem;
+  padding: 0 0.5rem;
+  background-color: #3d3d3d;
+  color: #f2f2f2;
+  font: bold 65%/1.5 sans-serif;
+  text-align: center;
+  vertical-align: 0.3rem;
+  border-radius: 999px;
+  text-shadow: none;
+  box-shadow: 0 1px #f2f2f2;
+}
+.line-highlight[data-end]:after {
+  content: attr(data-end);
+  top: auto;
+  bottom: 0.4rem;
+}
+.line-numbers .line-highlight:before,
+.line-numbers .line-highlight:after {
+  content: none;
+}
+pre[id].linkable-line-numbers span.line-numbers-rows {
+  pointer-events: all;
+}
+pre[id].linkable-line-numbers span.line-numbers-rows > span:before {
+  cursor: pointer;
+}
+pre[id].linkable-line-numbers span.line-numbers-rows > span:hover:before {
+  background-color: #3d3d3d;
+}
+.command-line-prompt {
+  border-right: 1px solid #999;
+  display: block;
+  float: left;
+  font-size: 100%;
+  letter-spacing: -1px;
+  margin-right: 1rem;
+  pointer-events: none;
+
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.command-line-prompt > span:before {
+  color: #999;
+  content: " ";
+  display: block;
+  padding-right: 0.8rem;
+}
+.command-line-prompt > span[data-user]:before {
+  content: "[" attr(data-user) "@" attr(data-host) "] $";
+}
+.command-line-prompt > span[data-user="root"]:before {
+  content: "[" attr(data-user) "@" attr(data-host) "] #";
+}
+.command-line-prompt > span[data-prompt]:before {
+  content: attr(data-prompt);
+}

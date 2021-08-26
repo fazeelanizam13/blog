@@ -1,0 +1,40 @@
+.tagContainer {
+  width: 25%;
+  margin: 2% auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: transparent;
+  border-right: 1px solid #a6a6a6;
+}
+.button {
+  width: 100%;
+  text-align: center;
+  padding: 5%;
+  margin: 15% 0;
+  transition: 0.3s color;
+}
+.button:hover {
+  color: rgb(146, 32, 140);
+}
+.cardContainer {
+  width: 75%;
+  background-color: #060606;
+}
+.cards {
+  padding: 2%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.goUpLink {
+  width: 100%;
+  text-align: center;
+  color: #a6a6a6;
+  font-size: 1.1rem;
+}
+.goUpButton {
+  padding: 4% 0;
+}
