@@ -7,25 +7,25 @@ export default function CustomHead({ title, path }) {
         rel='preload'
         href='fonts/Cabin/static/Cabin-Bold.ttf'
         as='font'
-        crossOrigin=''
+        crossorigin
       />
       <link
         rel='preload'
         href='fonts/SignikaNegative/SignikaNegative-Regular.ttf'
         as='font'
-        crossOrigin=''
+        crossorigin
       />
       <link
         rel='preload'
         href='fonts/SignikaNegative/SignikaNegative-Bold.ttf'
         as='font'
-        crossOrigin=''
+        crossorigin
       />
       <link
         rel='preload'
         href='fonts/OxygenMono/OxygenMono-Regular.ttf'
         as='font'
-        crossOrigin=''
+        crossorigin
       />
 
       <meta httpEquiv='x-ua-compatible' content='ie=edge' />
