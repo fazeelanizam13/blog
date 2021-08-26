@@ -8184,7 +8184,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _styles_prism_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../styles/prism.css */ "./styles/prism.css");
 /* harmony import */ var _styles_prism_css__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_styles_prism_css__WEBPACK_IMPORTED_MODULE_3__);
 
-var _jsxFileName = "D:\\blog\\pages\\_app.js";
+var _jsxFileName = "D:\\github\\blog\\pages\\_app.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
 
@@ -8450,7 +8450,7 @@ module.exports = content.locals || {};
 /***/ (function(module, exports, __webpack_require__) {
 
 __webpack_require__(/*! next-client-pages-loader?page=%2F_app&absolutePagePath=private-next-pages%2F_app.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F_app&absolutePagePath=private-next-pages%2F_app.js!./");
-module.exports = __webpack_require__(/*! D:\blog\node_modules\next\dist\client\router.js */"./node_modules/next/dist/client/router.js");
+module.exports = __webpack_require__(/*! D:\github\blog\node_modules\next\dist\client\router.js */"./node_modules/next/dist/client/router.js");
 
 
 /***/ })
