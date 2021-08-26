@@ -13,7 +13,7 @@ But before starting out, I will recommend my tool of choice for virtually any we
 So without further delay, let’s get into work. And what we will be creating today is this coffee cup:
 
 <p align="center">
-  <img src='https://blog.fazeelanizam.com/images/introduction-to-pure-css-art/image.png' />
+  <img src='/images/introduction-to-pure-css-art/image.png' />
 </p>
 
 To get started, we will first try to understand the different parts of the coffee cup illustration, that is, the <code>&lt;div></code> tags that we will be styling later with CSS.

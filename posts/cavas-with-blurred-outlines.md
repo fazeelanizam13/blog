@@ -107,6 +107,6 @@ draw(canvasATTR, colors)
 
 Look how the rectangles in the first canvas has visibly blurred inner borders, while in the second one they are as sharp as they should be. The CSS just gives a stretched out look to the canvas instead of setting the dimensions right.
 
-<img src='https://blog.fazeelanizam.com/images/cavas-with-blurred-outlines/image.png' />
+<img src='/images/cavas-with-blurred-outlines/image.png' />
 
 You can find the complete code with a demo <a href="https://github.com/fazeelanizam13/blog3-setting-canvas-dimensions-with-css-vs-attributes" target="_blank">here</a> on GitHub.

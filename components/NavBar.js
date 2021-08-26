@@ -5,7 +5,7 @@ export default function NavBar() {
   return (
     <div className={`${styles.root} ${styles.stick}`}>
       <div className={`${styles.group} ${styles.iconGroup}`}>
-        <Link href='/'>
+        <Link href='/' as={`${process.env.URL}/`}>
           <a>
             <img
               src='/navbar-icons/home.png'
@@ -17,7 +17,7 @@ export default function NavBar() {
       </div>
 
       <div className={`${styles.group} ${styles.iconGroup}`}>
-        <Link href='/tags'>
+        <Link href='/tags' as={`${process.env.URL}/tags`}>
           <a>
             <img
               src='/navbar-icons/tags.png'
@@ -26,7 +26,7 @@ export default function NavBar() {
             />
           </a>
         </Link>
-        <Link href='/archives'>
+        <Link href='/archives' as={`${process.env.URL}/archives`}>
           <a>
             <img
               src='/navbar-icons/archives.png'

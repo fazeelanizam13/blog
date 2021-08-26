@@ -9,7 +9,7 @@ export default function Footer() {
       </div>
 
       <div className={`${styles.group} ${styles.textGroup}`}>
-        <Link href="https://fazeelanizam.com/">
+        <Link href="https://fazeelanizam13.github.io/home/">
           <a target="_blank">Portfolio</a>
         </Link>
         <Link href="https://www.linkedin.com/in/fazeelanizam">
