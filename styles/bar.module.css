@@ -7,7 +7,8 @@
   background-color: transparent;
   display: flex;
   justify-content: space-between;
-  font-family: SignikaNEgative Regular;
+  font-family: 'Signika Negative';
+  font-weight: 400;
 }
 .stick {
   position: fixed;

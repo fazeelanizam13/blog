@@ -1,38 +1,9 @@
-@font-face {
-  font-family: "Cabin Bold";
-  src: url("/fonts/Cabin/static/Cabin-Bold.ttf");
-  font-style: bold;
-  font-weight: 700;
-  font-display: swap;
-}
-@font-face {
-  font-family: "SignikaNegative Light";
-  src: url("/fonts/SignikaNegative/SignikaNegative-Light.ttf");
-  font-style: normal;
-  font-weight: 300;
-  font-display: swap;
-}
-@font-face {
-  font-family: "SignikaNegative Regular";
-  src: url("/fonts/SignikaNegative/SignikaNegative-Regular.ttf");
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-}
-@font-face {
-  font-family: "SignikaNegative Bold";
-  src: url("/fonts/SignikaNegative/SignikaNegative-Bold.ttf");
-  font-style: bold;
-  font-weight: 700;
-  font-display: swap;
-}
-@font-face {
-  font-family: "OxygenMono Regular";
-  src: url("/fonts/OxygenMono/OxygenMono-Regular.ttf");
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-}
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@700&family=Oxygen+Mono&family=Signika+Negative:wght@300;400;700&display=swap');
+/*
+  Cabin - 700
+  Oxygen Mono - 400
+  Signika Negative - 300, 400, 700
+*/
 * {
   box-sizing: border-box;
 }
@@ -52,7 +23,8 @@ body {
 }
 body {
   width: 100vw;
-  font-family: SignikaNegative Light;
+  font-family: 'Signika Negative';
+  font-weight: 300;
   color: #f2f2f2;
   font-size: 18px;
   line-height: 1.6;

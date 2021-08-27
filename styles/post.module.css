@@ -14,12 +14,14 @@
   padding: 2% 0;
 }
 .content {
-  font-family: SignikaNegative Light;
+  font-family: 'Signika Negative';
+  font-weight: 300;
   width: 100%;
   padding: 3%;
 }
 .content a {
-  font-family: SignikaNegative Bold;
+  font-family: 'Signika Negative';
+  font-weight: 700;
   color: rgb(146, 32, 140);
   text-decoration: none;
   padding: 2px 5px;

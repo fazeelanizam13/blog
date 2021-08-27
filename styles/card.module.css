@@ -3,7 +3,8 @@
   height: auto;
   padding: 1% 3%;
   margin: 1% auto;
-  font-family: Cabin Bold;
+  font-family: 'Cabin';
+  font-weight: 700;
   display: flex;
   flex-direction: column;
   justify-content: space-around;

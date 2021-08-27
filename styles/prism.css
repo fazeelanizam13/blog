@@ -14,7 +14,8 @@ pre[class*="language-"] {
   padding: 0 5%;
   margin: 5%;
   text-shadow: none;
-  font-family: OxygenMono Regular;
+  font-family: 'Oxygen Mono';
+  font-weight: 400;
   direction: ltr;
   text-align: left;
   white-space: pre;
@@ -50,7 +51,8 @@ pre[class*="language-"] {
 }
 /* Inline code */
 :not(pre) > code {
-  font-family: OxygenMono Regular;
+  font-family: 'Oxygen Mono';
+  font-weight: 400;
   font-size: 0.9rem;
   padding: 0.1rem 0.5rem;
   margin: 0 0.2rem;

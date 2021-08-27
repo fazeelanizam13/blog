@@ -3,31 +3,6 @@ import Head from 'next/head';
 export default function CustomHead({ title, path }) {
   return (
     <Head>
-      <link
-        rel='preload'
-        href={`${process.env.URL}/fonts/Cabin/static/Cabin-Bold.ttf`}
-        as='font'
-        crossorigin
-      />
-      <link
-        rel='preload'
-        href={`${process.env.URL}/fonts/SignikaNegative/SignikaNegative-Regular.ttf`}
-        as='font'
-        crossorigin
-      />
-      <link
-        rel='preload'
-        href={`${process.env.URL}/fonts/SignikaNegative/SignikaNegative-Bold.ttf`}
-        as='font'
-        crossorigin
-      />
-      <link
-        rel='preload'
-        href={`${process.env.URL}/fonts/OxygenMono/OxygenMono-Regular.ttf`}
-        as='font'
-        crossorigin
-      />
-
       <meta httpEquiv='x-ua-compatible' content='ie=edge' />
       <meta httpEquiv='Content-Type' content='text/html; charset=utf-8' />
       <meta name='viewport' content='width=device-width, initial-scale=1.0, shrink-to-fit=no' />
